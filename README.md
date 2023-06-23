@@ -10,6 +10,7 @@ This repository contains a frontend automation framework for the GIS-Web-App for
 - Implements the Page-Object Model (POM) design pattern, providing a structured approach to organizing and maintaining test code.
 - Tests are tagged using the `grep` plugin, allowing for selective test execution based on tags or descriptions.
 - Integrates the Mochawesome test reporter to generate comprehensive HTML reports with detailed test execution results.
+- Postman for API testing using the included test collection.
 
 ## Prerequisites
 
@@ -42,6 +43,21 @@ Ensure you have the following software installed on your system:
 
 ---
 
+## Importing [Postman](https://www.postman.com/downloads/) API Tests collection
+
+The framework includes a Postman test collection located in the `api-tests` directory. Follow the steps below to run the API tests:
+
+1. Open Postman and import the provided test collection from the `api-tests` directory.
+
+2. Click on the **Import** button in Postman.
+
+3. Choose **Import Folder** and select the `api-tests` directory from the cloned repository.
+
+4. Once imported, you will see the collection named "GIS Web App - Renewable Energy Resources" in Postman.
+
+---
+
+
 ## Test Execution with Tags
 
 ## Test filtering
@@ -57,7 +73,7 @@ Ensure you have the following software installed on your system:
 
 More grep options are listed on the [@cypress/grep plugin repo](https://github.com/cypress-io/cypress/tree/develop/npm/grep#usage-overview)
 
----
+
 
 ## Tags:
 
